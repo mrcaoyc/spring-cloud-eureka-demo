@@ -1,0 +1,10 @@
+server:
+  port: 20002
+eureka:
+  instance:
+    hostname: eureka-service2
+  client:
+    service-url:
+      defaultZone: http://localhost:20001/eureka/
+
+
